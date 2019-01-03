@@ -17,14 +17,17 @@ import webbrowser
 
 #keyword = "모모랜드"
 
-#keyword = input("검색어를 입력해주세요: ")
+# 1. 사용자의 입력을 받아 검색하기
+keyword = input("검색어를 입력해주세요: ")
 
-url = "https://search.daum.net/search?w=tot&q="
+webbrowser.open()
 
-#webbrowser.open(url + keyword)
+# url = "https://search.daum.net/search?w=tot&q="
 
-momo = ["나윤", "혜빈(리더)", "아인", "낸시", "주이", "연우", "제인", "데이지", "태하"]
+# #webbrowser.open(url + keyword)
 
-# momo라고 하는 리스트를 한 번씩 돌면서 웹페이지를 열어줘
-for member in momo:
-    webbrowser.open(url + member)
+# momo = ["나윤", "혜빈(리더)", "아인", "낸시", "주이", "연우", "제인", "데이지", "태하"]
+
+# # momo라고 하는 리스트를 한 번씩 돌면서 웹페이지를 열어줘
+# for member in momo:
+#     webbrowser.open(url + member)
